@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.welcome-message {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 300px;
+}
+
+.sign-in-form {
+    padding: 20px;
+    width: 300px;
+}
+
+.sign-in-form h2 {
+    margin-top: 0;
+}
+
+.sign-in-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-form label {
+    margin-top: 10px;
+}
+
+.sign-in-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sign-in-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign-in-form button:hover {
+    background-color: #555;
+}
+
+.sign-in-form p {
+    margin-top: 20px;
+}
+
+.sign-in-form a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sign-in-form a:hover {
+    text-decoration: underline;
+}
